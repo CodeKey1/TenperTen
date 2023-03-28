@@ -34,6 +34,24 @@
                                 <div class="card card-secondary">
                                     <div class="card-header">
                                         <h4> كل المنتاجات </h4>
+                                        <div class="card-header-action">
+                                            <div class="dropdown">
+                                                <a href="#" data-toggle="dropdown"
+                                                    class="btn btn-warning dropdown-toggle">الإعدادت</a>
+                                                <div class="dropdown-menu" style="background-color: rgb(53, 60, 72);">
+                                                    <a href="#" class="dropdown-item has-icon text-success"><i
+                                                            class="fas fa-eye"></i>اضافة وارد حديد</a>
+                                                    <a href="#" class="dropdown-item has-icon text-info"><i
+                                                            class="far fa-edit"></i> تقارير</a>
+                                                    <div class="dropdown-divider"></div>
+                                                    <a href="" class="dropdown-item has-icon text-info"><i
+                                                            class="fas fa-archive"></i>
+                                                           الأرشيف </a>
+                                                </div>
+                                            </div>
+
+                                            <a href="{{ route('home') }}" class="btn btn-primary">الرئيسية</a>
+                                        </div>
                                     </div>
                                     <div class="card-body" style="direction: rtl;">
                                         <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -83,9 +101,9 @@
                                                                 <td>{{ $Suppliers->phone }}</td>
                                                                 <td>
                                                                     @if ($Suppliers->state == 0)
-                                                                        <div class="badge badge-danger">غير نشط</div>
+                                                                        <div class="badge badge-danger"> </div>
                                                                     @elseif($Suppliers->state == 1)
-                                                                        <div class="badge badge-success">نشط</div>
+                                                                        <div class="badge badge-success"> </div>
                                                                     @endif
 
                                                                 </td>

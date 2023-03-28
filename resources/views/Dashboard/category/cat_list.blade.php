@@ -34,6 +34,24 @@
                                 <div class="card card-secondary">
                                     <div class="card-header">
                                         <h4> الاقـــســـام </h4>
+                                        <div class="card-header-action">
+                                            <div class="dropdown">
+                                                <a href="#" data-toggle="dropdown"
+                                                    class="btn btn-warning dropdown-toggle">الإعدادت</a>
+                                                <div class="dropdown-menu" style="background-color: rgb(53, 60, 72);">
+                                                    <a href="#" class="dropdown-item has-icon text-success"><i
+                                                            class="fas fa-eye"></i>اضافة وارد حديد</a>
+                                                    <a href="#" class="dropdown-item has-icon text-info"><i
+                                                            class="far fa-edit"></i> تقارير</a>
+                                                    <div class="dropdown-divider"></div>
+                                                    <a href="" class="dropdown-item has-icon text-info"><i
+                                                            class="fas fa-archive"></i>
+                                                           الأرشيف </a>
+                                                </div>
+                                            </div>
+
+                                            <a href="{{ route('home') }}" class="btn btn-primary">الرئيسية</a>
+                                        </div>
                                     </div>
                                     <div class="card-body" style="direction: rtl;">
                                         <div class="table-responsive">
@@ -55,24 +73,15 @@
                                                             <td>{{ $Category->name }}</td>
                                                             <td>
                                                                 @if ($Category->state == 0)
-                                                                    <div class="badge badge-danger">غير نشط</div>
+                                                                    <div class="badge badge-danger"> </div>
                                                                 @elseif($Category->state == 1)
-                                                                    <div class="badge badge-success">نشط</div>
+                                                                    <div class="badge badge-success"> </div>
                                                                 @endif
 
                                                             </td>
                                                             <td>
-                                                                <div class="btn-group dropup">
-                                                                    <button id="btnGroupVerticalDrop5"type="button" class="btn"data-toggle="dropdown" aria-haspopup="true"aria-expanded="false">
-                                                                        <i class="fas fa-ellipsis-v"></i>
-                                                                    </button>
-
-                                                                    <div class="dropdown-menu" aria-labelledby="btnGroupVerticalDrop2">
-                                                                        <a class="dropdown-item" href="">عرض</a>
-                                                                        <a class="dropdown-item" href=""> تعديل</a>
-                                                                        <a class="dropdown-item" href="#">حذف</a>
-                                                                    </div>
-                                                                </div>
+                                                                <a class="btn btn-icon btn-success" href="#" ata-toggle="tooltip" data-placement="top" title="عرض وتعديل" ><i class="fas fa-user"></i></a>
+                                                                    <a class="btn btn-icon btn-danger" href="#"><i class="fas fa-times"></i></a>
                                                             </td>
                                                         </tr>
                                                     @endforeach
