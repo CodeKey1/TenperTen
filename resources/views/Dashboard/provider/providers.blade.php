@@ -64,17 +64,8 @@
 
                                                             </td>
                                                             <td>
-                                                                <div class="btn-group dropup">
-                                                                    <button id="btnGroupVerticalDrop5"type="button" class="btn"data-toggle="dropdown" aria-haspopup="true"aria-expanded="false">
-                                                                        <i class="fas fa-ellipsis-v"></i>
-                                                                    </button>
-
-                                                                    <div class="dropdown-menu" aria-labelledby="btnGroupVerticalDrop2">
-                                                                        <a class="dropdown-item" href="">عرض</a>
-                                                                        <a class="dropdown-item" href=""> تعديل</a>
-                                                                        <a class="dropdown-item" href="#">حذف</a>
-                                                                    </div>
-                                                                </div>
+                                                                <a class="btn btn-icon btn-success" href="#" ata-toggle="tooltip" data-placement="top" title="عرض وتعديل" ><i class="fas fa-user"></i></a>
+                                                                <a class="btn btn-icon btn-danger" href="#"><i class="fas fa-times"></i></a>
                                                             </td>
                                                         </tr>
                                                     @endforeach

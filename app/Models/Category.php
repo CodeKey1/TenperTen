@@ -19,4 +19,8 @@ class Category extends Model
         'created_at',
         'updated_at',
     ];
+
+    public function services_cat(){
+        return  $this->hasMany(Category_Service::class ,'categorys_id');
+    }
 }

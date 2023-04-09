@@ -55,6 +55,7 @@ Route::group(['namespace'=> 'admin','middleware' => 'auth'],function (){
     Route::get('/category', [App\Http\Controllers\DashboardController::class, 'category'])->name('category');
     Route::post('/save', [App\Http\Controllers\Dashboard\CategoryController::class, 'store'])->name('save');
     Route::get('/category_list', [App\Http\Controllers\Dashboard\CategoryController::class, 'index'])->name('category_list');
+    Route::get('/category-delete{id}', [App\Http\Controllers\Dashboard\CategoryController::class, 'destroy'])->name('category.delete');
   });
 
 /*
@@ -66,6 +67,7 @@ Route::group(['namespace'=> 'admin','middleware' => 'auth'],function (){
     //Route::get('/category', [App\Http\Controllers\DashboardController::class, 'category'])->name('category');
     //Route::post('/save', [App\Http\Controllers\Dashboard\CategoryController::class, 'store'])->name('save');
     Route::get('/service', [App\Http\Controllers\Dashboard\ServiceController::class, 'index'])->name('service_list');
+    Route::get('/service_daelete{id}', [App\Http\Controllers\Dashboard\ServiceController::class, 'destroy'])->name('service.delete');
     Route::get('/add_sevice', [App\Http\Controllers\Dashboard\ServiceController::class, 'service'])->name('service_add');
     Route::post('/service_create', [App\Http\Controllers\Dashboard\ServiceController::class, 'create'])->name('service.save');
 

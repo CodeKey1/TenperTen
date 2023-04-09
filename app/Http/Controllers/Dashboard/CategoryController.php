@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Dashboard;
 
 use App\Http\Controllers\Controller;
 use App\Models\Category;
+use App\Models\Category_Service;
 use Illuminate\Http\Request;
 
 class CategoryController extends Controller
@@ -110,5 +111,10 @@ class CategoryController extends Controller
     public function destroy($id)
     {
         //
+
+        $Category_sevices = Category_Service::where('categorys_id',$id)->delete('categorys_id');
+        $Category = Category::with('services_cat')->find($id);
+        $Category->delete();
+        return redirect()->back()->with(['success' => 'تم الحذف بنجاح']);
     }
 }

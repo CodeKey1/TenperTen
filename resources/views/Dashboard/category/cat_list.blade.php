@@ -81,7 +81,7 @@
                                                             </td>
                                                             <td>
                                                                 <a class="btn btn-icon btn-success" href="#" ata-toggle="tooltip" data-placement="top" title="عرض وتعديل" ><i class="fas fa-user"></i></a>
-                                                                    <a class="btn btn-icon btn-danger" href="#"><i class="fas fa-times"></i></a>
+                                                                    <a class="btn btn-icon btn-danger" href="{{route('category.delete',$Category->id)}}"><i class="fas fa-times"></i></a>
                                                             </td>
                                                         </tr>
                                                     @endforeach

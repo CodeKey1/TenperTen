@@ -175,5 +175,8 @@ class ServiceController extends Controller
     public function destroy($id)
     {
         //
+        $services =  Service::with('service_cat')->find($id);
+        $services->delete();
+        return redirect()->back()->with(['success' => 'تم الحذف بنجاح']);
     }
 }
