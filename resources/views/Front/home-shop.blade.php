@@ -117,7 +117,7 @@
                             data-paddingtop="[0,0,0,0]"
                             data-paddingright="[0,0,0,0]"
                             data-paddingbottom="[0,0,0,0]"
-                            data-paddingleft="[0,0,0,0]">Tools & 
+                            data-paddingleft="[0,0,0,0]">Tools &
                         </div>
                         <div class="tp-caption tp-resizeme slide-main-text" id="slide-5-layer-3" data-x="['left','left','left','center']" data-hoffset="['50','40','30','0']" data-y="['top','top','top','top']" data-voffset="['264','254','157','89']"
                             data-fontsize="['100','100','70','40']"
@@ -134,7 +134,7 @@
                             data-paddingtop="[0,0,0,0]"
                             data-paddingright="[0,0,0,0]"
                             data-paddingbottom="[0,0,0,0]"
-                            data-paddingleft="[0,0,0,0]">Hardware 
+                            data-paddingleft="[0,0,0,0]">Hardware
                         </div>
                         <div class="tp-caption tp-resizeme" id="slide-5-layer-10" data-x="['left','left','left','center']" data-hoffset="['50','40','30','0']" data-y="['top','top','top','top']" data-voffset="['385','372','245','147']"
                             data-fontsize="['21','21','15','13']"
@@ -150,7 +150,7 @@
                             data-paddingtop="[0,0,0,0]"
                             data-paddingright="[0,0,0,0]"
                             data-paddingbottom="[0,0,0,0]"
-                            data-paddingleft="[0,0,0,0]">Best Place to Buy & Sell Tools & Hardware at Best Prices! 
+                            data-paddingleft="[0,0,0,0]">Best Place to Buy & Sell Tools & Hardware at Best Prices!
                         </div>
                         <div class="tp-caption tp-shape tp-shapewrapper tp-resizeme" id="slide-5-layer-11" data-x="['left','left','left','left']" data-hoffset="['607','567','427','-263']" data-y="['top','top','top','top']" data-voffset="['160','140','70','176']"
                             data-width="['145','145','120','100']"
@@ -164,7 +164,7 @@
                             data-paddingtop="[0,0,0,0]"
                             data-paddingright="[0,0,0,0]"
                             data-paddingbottom="[0,0,0,0]"
-                            data-paddingleft="[0,0,0,0]"> 
+                            data-paddingleft="[0,0,0,0]">
                         </div>
                         <div class="tp-caption tp-resizeme" id="slide-5-layer-12" data-x="['left','left','left','left']" data-hoffset="['639','599','458','-238']" data-y="['top','top','top','top']" data-voffset="['199','179','100','196']"
                             data-fontsize="['35','35','25','20']"
@@ -182,7 +182,7 @@
                             data-paddingtop="[0,0,0,0]"
                             data-paddingright="[0,0,0,0]"
                             data-paddingbottom="[0,0,0,0]"
-                            data-paddingleft="[0,0,0,0]">SALE 
+                            data-paddingleft="[0,0,0,0]">SALE
                         </div>
                         <div class="tp-caption tp-resizeme" id="slide-5-layer-13" data-x="['left','left','left','left']" data-hoffset="['640','600','458','-242']" data-y="['top','top','top','top']" data-voffset="['234','214','127','218']"
                             data-fontsize="['35','35','25','20']"
@@ -200,7 +200,7 @@
                             data-paddingtop="[0,0,0,0]"
                             data-paddingright="[0,0,0,0]"
                             data-paddingbottom="[0,0,0,0]"
-                            data-paddingleft="[0,0,0,0]">30% 
+                            data-paddingleft="[0,0,0,0]">30%
                         </div>
                         <a class="tp-caption dark-flatborder-button tp-resizeme" href="#" target="_self" id="slide-5-layer-14" data-x="['left','left','center','center']" data-hoffset="['204','194','-138','0']" data-y="['top','top','middle','middle']" data-voffset="['451','445','101','39']"
                             data-fontsize="['13','13','12','11']"
@@ -217,7 +217,7 @@
                             data-paddingtop="[18,18,13,12]"
                             data-paddingright="[30,30,25,20]"
                             data-paddingbottom="[18,18,13,12]"
-                            data-paddingleft="[30,30,25,20]">VIEW MORE DETAILS 
+                            data-paddingleft="[30,30,25,20]">VIEW MORE DETAILS
                         </a>
                         <a class="tp-caption skin-flat-button tp-resizeme" href="#" target="_self" id="slide-5-layer-9" data-x="['left','left','center','center']" data-hoffset="['50','40','-300','0']" data-y="['top','top','middle','middle']" data-voffset="['450','445','100','93']"
                             data-fontsize="['13','13','12','11']"
@@ -234,7 +234,7 @@
                             data-paddingtop="[20,20,15,12]"
                             data-paddingright="[30,30,25,20]"
                             data-paddingbottom="[20,20,15,12]"
-                            data-paddingleft="[30,30,25,20]">SHOP NOW! 
+                            data-paddingleft="[30,30,25,20]">SHOP NOW!
                         </a>
                     </li>
                     <li data-index="rs-6" data-transition="slotslide-horizontal" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="default" data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
@@ -256,7 +256,7 @@
                             data-paddingtop="[0,0,0,0]"
                             data-paddingright="[0,0,0,0]"
                             data-paddingbottom="[0,0,0,0]"
-                            data-paddingleft="[0,0,0,0]">Tools & 
+                            data-paddingleft="[0,0,0,0]">Tools &
                         </div>
                         <div class="tp-caption tp-resizeme slide-main-text" id="slide-6-layer-3" data-x="['right','right','right','center']" data-hoffset="['50','40','30','0']" data-y="['top','top','top','top']" data-voffset="['264','264','157','89']"
                             data-fontsize="['100','100','70','40']"
@@ -273,7 +273,7 @@
                             data-paddingtop="[0,0,0,0]"
                             data-paddingright="[0,0,0,0]"
                             data-paddingbottom="[0,0,0,0]"
-                            data-paddingleft="[0,0,0,0]">Hardware 
+                            data-paddingleft="[0,0,0,0]">Hardware
                         </div>
                         <div class="tp-caption tp-resizeme" id="slide-6-layer-10" data-x="['right','right','right','center']" data-hoffset="['50','40','30','0']" data-y="['top','top','top','top']" data-voffset="['385','382','245','147']"
                             data-fontsize="['21','21','15','13']"
@@ -289,7 +289,7 @@
                             data-paddingtop="[0,0,0,0]"
                             data-paddingright="[0,0,0,0]"
                             data-paddingbottom="[0,0,0,0]"
-                            data-paddingleft="[0,0,0,0]">Best Place to Buy & Sell Tools & Hardware at Best Prices! 
+                            data-paddingleft="[0,0,0,0]">Best Place to Buy & Sell Tools & Hardware at Best Prices!
                         </div>
                         <div class="tp-caption tp-shape tp-shapewrapper tp-resizeme" id="slide-6-layer-11" data-x="['left','left','left','left']" data-hoffset="['507','307','227','-263']" data-y="['top','top','top','top']" data-voffset="['140','140','70','176']"
                             data-width="['145','145','120','100']"
@@ -303,7 +303,7 @@
                             data-paddingtop="[0,0,0,0]"
                             data-paddingright="[0,0,0,0]"
                             data-paddingbottom="[0,0,0,0]"
-                            data-paddingleft="[0,0,0,0]"> 
+                            data-paddingleft="[0,0,0,0]">
                         </div>
                         <div class="tp-caption tp-resizeme" id="slide-6-layer-12" data-x="['left','left','left','left']" data-hoffset="['539','339','258','-238']" data-y="['top','top','top','top']" data-voffset="['179','179','100','196']"
                             data-fontsize="['35','35','25','20']"
@@ -321,7 +321,7 @@
                             data-paddingtop="[0,0,0,0]"
                             data-paddingright="[0,0,0,0]"
                             data-paddingbottom="[0,0,0,0]"
-                            data-paddingleft="[0,0,0,0]">SALE 
+                            data-paddingleft="[0,0,0,0]">SALE
                         </div>
                         <div class="tp-caption tp-resizeme" id="slide-6-layer-13" data-x="['left','left','left','left']" data-hoffset="['540','340','258','-242']" data-y="['top','top','top','top']" data-voffset="['214','214','127','218']"
                             data-fontsize="['35','35','25','20']"
@@ -339,7 +339,7 @@
                             data-paddingtop="[0,0,0,0]"
                             data-paddingright="[0,0,0,0]"
                             data-paddingbottom="[0,0,0,0]"
-                            data-paddingleft="[0,0,0,0]">25% 
+                            data-paddingleft="[0,0,0,0]">25%
                         </div>
                         <a class="tp-caption dark-flatborder-button tp-resizeme" href="#" target="_self" id="slide-6-layer-14" data-x="['right','right','right','center']" data-hoffset="['50','40','30','0']" data-y="['top','top','middle','middle']" data-voffset="['451','455','101','39']"
                             data-fontsize="['13','13','12','11']"
@@ -356,7 +356,7 @@
                             data-paddingtop="[18,18,13,12]"
                             data-paddingright="[30,30,25,20]"
                             data-paddingbottom="[18,18,13,12]"
-                            data-paddingleft="[30,30,25,20]">VIEW MORE DETAILS 
+                            data-paddingleft="[30,30,25,20]">VIEW MORE DETAILS
                         </a>
                     </li>
                 </ul>
@@ -953,16 +953,16 @@
                                 </div>
                             </div>
                         </div>
-                    </div><!-- ttm-client end --> 
+                    </div><!-- ttm-client end -->
                 </div><!-- row end-->
             </div>
         </section>
         <!--client-section end-->
-        
+
     </div><!--site-main end-->
 
      <!--footer start-->
-     
+
     @include('Layouts.footer')
 
      <!--footer end-->
@@ -975,9 +975,9 @@
     <script src="js/tether.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/color-switcher.js"></script>
-    <script src="js/jquery.easing.js"></script>    
-    <script src="js/jquery-waypoints.js"></script>    
-    <script src="js/jquery-validate.js"></script> 
+    <script src="js/jquery.easing.js"></script>
+    <script src="js/jquery-waypoints.js"></script>
+    <script src="js/jquery-validate.js"></script>
     <script src="js/owl.carousel.js"></script>
     <script src="js/jquery.prettyPhoto.js"></script>
     <script src="js/numinate.min6959.js?ver=4.9.3"></script>
@@ -988,7 +988,7 @@
     <script src="revolution/js/jquery.themepunch.revolution.min.js"></script>
     <script src="revolution/js/slider.js"></script>
 
-    <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->    
+    <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
 
     <script src="revolution/js/extensions/revolution.extension.actions.min.js"></script>
     <script src="revolution/js/extensions/revolution.extension.carousel.min.js"></script>

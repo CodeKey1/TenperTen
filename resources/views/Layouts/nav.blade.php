@@ -1,30 +1,6 @@
 <!--site-navigation -->
 <div id="site-navigation" class="site-navigation">
-    <div class="header-btn">
-        @guest
-            @if (Route::has('login'))
-                <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-btn-style-border ttm-btn-color-skincolor"
-                    href="{{ route('login') }}">{{ __('Login') }}</a>
-            @endif
-
-            @if (Route::has('register'))
-                <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-btn-style-border ttm-btn-color-skincolor""
-                    href="{{ route('register') }}">{{ __('Register') }}</a>
-            @endif
-        @else
-            <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-btn-style-border ttm-btn-color-skincolor"
-                href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
-                {{ Auth::user()->name }}
-            </a>
-            <a class="ttm-btn ttm-btn-size-md ttm-btn-shape-square ttm-btn-style-border ttm-btn-color-skincolor"
-                href="{{ route('logout') }}"
-                onclick="event.preventDefault();document.getElementById('logout-form').submit();">{{ __('Logout') }}</a>
-
-            <form action="{{ route('logout') }}" method="POST" id="logout-form">
-                @csrf
-            </form>
-        @endguest
-    </div>
+    
     <!-- header-icins -->
     <div class="ttm-header-icons ">
         <span class="ttm-header-icon ttm-header-cart-link">

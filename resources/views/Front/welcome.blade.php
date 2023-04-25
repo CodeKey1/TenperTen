@@ -482,11 +482,11 @@
                                             <li class="tab"><a href=""> {{ $categorys->name }}</a></li>
                                         @endforeach
                                     @endif
-                                    {{-- <li class="tab"><a href="#"> <i class="flaticon flaticon-faucet-1""></i> Petroleum &amp; Mining </a></li>
+                                    <li class="tab"><a href="#"> <i class="flaticon flaticon-faucet-1""></i> Petroleum &amp; Mining </a></li>
                                     <li class="tab"><a href="#"> <i class="flaticon flaticon-man-painting-wall"></i>Fuel Controling</a></li>
                                     <li class="tab active"><a href="#"> <i class="flaticon flaticon-pipeline"></i>Liquid Chemicals</a></li>
                                     <li class="tab"><a href="#"> <i class="flaticon flaticon-anvil"></i>Monomers &amp; Polymers</a></li>
-                                    <li class="tab"><a href="#"> <i class="flaticon flaticon-welder-1"></i>Maintenance &amp; Repairs</a></li> --}}
+                                    <li class="tab"><a href="#"> <i class="flaticon flaticon-welder-1"></i>Maintenance &amp; Repairs</a></li>
                                 </ul><!-- flat-tab end -->
                                 <div class="content-tab width-100">
                                     <!-- content-inner -->

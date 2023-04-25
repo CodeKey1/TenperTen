@@ -64,8 +64,7 @@ Route::group(['namespace'=> 'admin','middleware' => 'auth'],function (){
 |--------------------------------------------------------------------------
 */
 Route::group(['namespace'=> 'admin','middleware' => 'auth'],function (){
-    //Route::get('/category', [App\Http\Controllers\DashboardController::class, 'category'])->name('category');
-    //Route::post('/save', [App\Http\Controllers\Dashboard\CategoryController::class, 'store'])->name('save');
+
     Route::get('/service', [App\Http\Controllers\Dashboard\ServiceController::class, 'index'])->name('service_list');
     Route::get('/service_daelete{id}', [App\Http\Controllers\Dashboard\ServiceController::class, 'destroy'])->name('service.delete');
     Route::get('/add_sevice', [App\Http\Controllers\Dashboard\ServiceController::class, 'service'])->name('service_add');
@@ -79,8 +78,7 @@ Route::group(['namespace'=> 'admin','middleware' => 'auth'],function (){
 |--------------------------------------------------------------------------
 */
 Route::group(['namespace'=> 'admin','middleware' => 'auth'],function (){
-    //Route::get('/category', [App\Http\Controllers\DashboardController::class, 'category'])->name('category');
-    //Route::post('/save', [App\Http\Controllers\Dashboard\CategoryController::class, 'store'])->name('save');
+
     Route::get('/provider', [App\Http\Controllers\Dashboard\ProviderController::class, 'index'])->name('provider_list');
     Route::get('/add_provider', [App\Http\Controllers\Dashboard\ProviderController::class, 'create'])->name('provider_add');
     Route::post('/provider_create', [App\Http\Controllers\Dashboard\ProviderController::class, 'store'])->name('provider.save');
@@ -94,9 +92,7 @@ Route::group(['namespace'=> 'admin','middleware' => 'auth'],function (){
 */
 Route::group(['namespace'=> 'admin','middleware' => 'auth'],function (){
     Route::get('/supplier', [App\Http\Controllers\Dashboard\SupplierController::class, 'index'])->name('suppliers');
-    //Route::post('/save', [App\Http\Controllers\Dashboard\CategoryController::class, 'store'])->name('save');
     Route::get('/supplier-add', [App\Http\Controllers\Dashboard\SupplierController::class, 'create'])->name('supplier.add');
-    //Route::get('/add_provider', [App\Http\Controllers\Dashboard\ProviderController::class, 'create'])->name('provider_add');
     Route::post('/supplier_create', [App\Http\Controllers\Dashboard\SupplierController::class, 'store'])->name('supplier.save');
 
 });
